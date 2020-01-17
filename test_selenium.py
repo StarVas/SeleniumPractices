@@ -50,7 +50,15 @@ finally:
 
 #time.sleep(1)
 
-
+#num1 = int(browser.find_element_by_id("num1").text)
+#num2 = int(browser.find_element_by_id("num2").text)
+#x = num1
+#y = num2
+#result = str(int(x) + int(y))
+#select = Select(browser.find_element_by_css_selector('#dropdown'))
+#select.select_by_value(result)
+#submit = browser.find_element_by_css_selector('body > div > form > button')
+#submit.click()
 #
 # try:
 #    link = "http://suninjuly.github.io/selects1.html"
